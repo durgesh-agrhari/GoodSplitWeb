@@ -10,6 +10,7 @@ import Hero from '../UI/Hero'
 import {useState, useEffect} from 'react';
 // import HomeVideo from '../homeVideo/HomeVideo'
 import AutoCarousel from '../caresolePage/AutoCarousel';
+import Social from '../UI/Social';
 // import StoryViewer from '../storypage/StoryViewer';
 
 const Homepage = () => {
@@ -25,6 +26,7 @@ const Homepage = () => {
       <AutoCarousel/>
       {/* <StoryViewer/> */}
       <Hero theme={theme} />
+      <Social/>
       {/* <HomeVideo/> */}
       {/* <Counter/> */}
       {/* <Services/> */}

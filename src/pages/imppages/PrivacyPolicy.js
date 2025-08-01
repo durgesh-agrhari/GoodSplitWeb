@@ -5,77 +5,76 @@ const PrivacyPolicy = () => {
   return (
     <div className="privacy-page">
       <h1 className="privacy-title">Privacy Policy</h1>
-      <p className="privacy-updated">Last updated: July 18, 2025</p>
+      <p className="privacy-updated">Last updated: August 1, 2025</p>
 
       <div className="privacy-content">
         <section>
           <h2>1. Introduction</h2>
           <p>
-            Welcome to our social media platform (“we,” “our,” or “us”). This Privacy Policy explains how we collect, use, and protect your personal data when you use our website and mobile app (“the Platform”), which functions similarly to Instagram.
+            Welcome to GoodSplit ("we", "our", or "us"). This Privacy Policy outlines how we collect, use, and protect your personal information when you use our mobile application, which allows users to register, log in, create groups, and split trip expenses easily with friends.
           </p>
         </section>
 
         <section>
           <h2>2. Information We Collect</h2>
-          <p>We collect the following information when you use our services:</p>
+          <p>When you use GoodSplit, we collect the following data:</p>
           <ul>
-            <li>Personal details like name, email, phone number</li>
-            <li>Profile information and media uploads (photos, videos, etc.)</li>
-            <li>Device and usage data, including IP address and location</li>
-            <li>Messages and comments shared within the app</li>
+            <li>Your name and email address during registration</li>
+            <li>Basic profile details (optional)</li>
+            <li>Group names and expense details you create within the app</li>
+            <li>Login information for authentication purposes</li>
           </ul>
         </section>
 
         <section>
           <h2>3. How We Use Your Information</h2>
-          <p>We use the data to:</p>
+          <p>We use your information only to:</p>
           <ul>
-            <li>Personalize your experience</li>
-            <li>Improve our services</li>
-            <li>Send notifications and updates</li>
-            <li>Monitor and protect against abuse</li>
+            <li>Authenticate your login and manage your account</li>
+            <li>Allow you to create and manage groups for expense splitting</li>
+            <li>Ensure proper functioning and user experience of the app</li>
           </ul>
         </section>
 
         <section>
           <h2>4. Sharing of Information</h2>
           <p>
-            We do not sell your personal information. We may share your data with service providers, law enforcement (when required), or during business transfers such as mergers or acquisitions.
+            We do not sell or share your personal data with third parties. Your data is only visible to group members you explicitly add. We may share data only if required by law or to comply with legal obligations.
           </p>
         </section>
 
         <section>
           <h2>5. Data Security</h2>
           <p>
-            We implement industry-standard security measures to protect your information. However, no system is 100% secure, and we cannot guarantee absolute security.
+            We use industry-standard practices to protect your personal data. While we take reasonable steps to secure your information, no method of transmission over the Internet or electronic storage is 100% secure.
           </p>
         </section>
 
         <section>
-          <h2>6. Your Choices</h2>
+          <h2>6. Your Rights and Choices</h2>
           <p>
-            You can manage your profile settings, delete your account, or opt out of notifications at any time from the app or website settings.
+            You have the right to update or delete your account information at any time through the app settings. You can also choose to leave or delete any group you've created.
           </p>
         </section>
 
         <section>
           <h2>7. Children’s Privacy</h2>
           <p>
-            Our services are not intended for users under the age of 13. We do not knowingly collect data from children.
+            GoodSplit is not intended for users under the age of 13. We do not knowingly collect personal information from children under 13 years of age.
           </p>
         </section>
 
         <section>
           <h2>8. Changes to This Policy</h2>
           <p>
-            We may update this Privacy Policy occasionally. Updates will be posted on this page with the new effective date.
+            We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised "Last updated" date.
           </p>
         </section>
 
         <section>
           <h2>9. Contact Us</h2>
           <p>
-            If you have questions about this policy, contact us at: <a href="mailto:support@yourapp.com">support@yourapp.com</a>
+            If you have any questions about this Privacy Policy or how your data is handled, please contact us at: <a href="mailto:goodsplitapp@gmail.com">goodsplitapp@gmail.com</a>
           </p>
         </section>
       </div>
@@ -84,3 +83,91 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
+
+
+// import React from 'react';
+// import './PrivacyPolicy.css';
+
+// const PrivacyPolicy = () => {
+//   return (
+//     <div className="privacy-page">
+//       <h1 className="privacy-title">Privacy Policy</h1>
+//       <p className="privacy-updated">Last updated: July 18, 2025</p>
+
+//       <div className="privacy-content">
+//         <section>
+//           <h2>1. Introduction</h2>
+//           <p>
+//             Welcome to our social media platform (“we,” “our,” or “us”). This Privacy Policy explains how we collect, use, and protect your personal data when you use our website and mobile app (“the Platform”), which functions similarly to Instagram.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2>2. Information We Collect</h2>
+//           <p>We collect the following information when you use our services:</p>
+//           <ul>
+//             <li>Personal details like name, email, phone number</li>
+//             <li>Profile information and media uploads (photos, videos, etc.)</li>
+//             <li>Device and usage data, including IP address and location</li>
+//             <li>Messages and comments shared within the app</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2>3. How We Use Your Information</h2>
+//           <p>We use the data to:</p>
+//           <ul>
+//             <li>Personalize your experience</li>
+//             <li>Improve our services</li>
+//             <li>Send notifications and updates</li>
+//             <li>Monitor and protect against abuse</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2>4. Sharing of Information</h2>
+//           <p>
+//             We do not sell your personal information. We may share your data with service providers, law enforcement (when required), or during business transfers such as mergers or acquisitions.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2>5. Data Security</h2>
+//           <p>
+//             We implement industry-standard security measures to protect your information. However, no system is 100% secure, and we cannot guarantee absolute security.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2>6. Your Choices</h2>
+//           <p>
+//             You can manage your profile settings, delete your account, or opt out of notifications at any time from the app or website settings.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2>7. Children’s Privacy</h2>
+//           <p>
+//             Our services are not intended for users under the age of 13. We do not knowingly collect data from children.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2>8. Changes to This Policy</h2>
+//           <p>
+//             We may update this Privacy Policy occasionally. Updates will be posted on this page with the new effective date.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2>9. Contact Us</h2>
+//           <p>
+//             If you have questions about this policy, contact us at: <a href="mailto:support@yourapp.com">support@yourapp.com</a>
+//           </p>
+//         </section>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default PrivacyPolicy;
