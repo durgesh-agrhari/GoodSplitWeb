@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
         <section>
           <h2>1. Introduction</h2>
           <p>
-            Welcome to GoodSplit ("we", "our", or "us"). This Privacy Policy outlines how we collect, use, and protect your personal information when you use our mobile application, which allows users to register, log in, create groups, and split trip expenses easily with friends.
+            Welcome to GoodSplit. This Privacy Policy outlines how we collect, use, and protect your personal information when you use our mobile application, which allows users to register, log in, create groups, and split trip expenses easily with friends.
           </p>
         </section>
 
